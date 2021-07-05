@@ -1,0 +1,51 @@
+/*  CSS Styles
+    Assignment: Responsive Design
+    Name: Winter Mahana
+    Date: 6.30.2021
+    Filename: styles.CSS
+*/
+
+/* Main Content */
+html {
+  background-color: #f1f1f1;
+  background-repeat: no-repeat;
+  font-family: "Optima, sans-serif";
+}
+header {
+  text-align: center;
+  font-size: 15pt;
+  color: hsl(263, 21%, 25%);
+}
+
+footer {
+  color: hsl(263, 21%, 25%);
+  text-align: center;
+}
+/* Navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color:hsl(263, 21%, 25%);
+}
+
+li a {
+  display: block;
+  color: #f1f1f1;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Optima, sans-serif";
+}
+li a:hover {
+  background-color: #f1f1f1;
+  color: hsl(263, 21%, 25%);
+}
+p {
+  font-size: 12pt;
+  background-color: hsl(263, 21%, 25%);
+  padding:15px;
+  color: #f1f1f1;
+}
